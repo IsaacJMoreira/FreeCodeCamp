@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+     <title>Survay Form Test</title>
+    <h1 id="title">First survey form test</h1>
+    <p id="description">Just do it, mate</p> 
+    <form id="survey-form"  method="post" action='https://register-demo.freecodecamp.org'>
+      <label id="name-label" >Name: <input id="name" type="text" placeholder="Enter your name here" required /></label>
+      <label id="email-label">e-mail: <input id="email" type="email" placeholder="your@email.com" required /></label>
+      <label id="number-label">Age: <input id="number" type="number" min="18" max="150" placeholder="69" /></label>Gender:
+      <select id="dropdown">
+        <option>(gender)</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+      <p>Choose your prefered method of transportation:</p>
+      <label for="Transportation"><input id="car" type="radio"         name="transportation" value="1" /> car</label>
+      <label for="Transportation"><input id="foot" type="radio" name="transportation" value="2" /> foot</label>
+      <label for="Transportation"><input id="byke" type="radio" name="transportation" value="3" /> byke</label>
+      <label for="Transportation"><input id="subway/public" type="radio" name="transportation" value="4" /> subway/public</label>
+     
+      <p>Please, check the appliances you have at home:</p>
+      <lable for="apliances"><input id="refrigerator" type="checkbox" value="1" /> Refrigerator</label>
+       <lable for="apliances"><input id="blender" type="checkbox" value="2" /> Blender</label>
+        <lable for="apliances"><input id="microwave-oven" type="checkbox" value="4" /> Microwave-oven</label>
+        <lable for="apliances"><input id="Toaster" type="checkbox" value="8" /> Toaster</label>
+         
+
+         <label class="joke" for ="comment"> Please, give us a clever and sarcastic joke bout the US economy:
+           <textarea id="comment" name="joke" rows="5" cols="40" placeholder="This is not a joke, but the entire US econoic system is a Ponzi Scheme." ></textarea>
+         </label>
+
+         <input id= "submit" type="submit">
+         
+    </form>    
+  </body>
+<html>

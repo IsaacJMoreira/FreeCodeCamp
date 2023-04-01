@@ -1,0 +1,30 @@
+h1, p{
+  text-align: center;
+  font: Sans-serif;
+}
+
+
+label, block {
+  display: block;
+  margin: 5px auto;
+}
+
+body{
+  margin: 1em;
+  padding: auto;
+  font-family: verdana;
+  background-color: #f0f0f0;
+}
+
+textarea{
+  margin: 2px 0px;
+  width: 100%
+}
+
+.joke{
+  margin-top: 10px;
+}
+
+input[id="submit"]{
+  margin-top: 25px;
+}
